@@ -89,7 +89,7 @@ collections:
                 hint: "Tag name for displaying on the site"
 
   - name: "posts"
-    label: "Articles"
+    label: "Posts"
     folder: "content/posts/"
     extension: "mdx"
     format: "frontmatter"
@@ -101,7 +101,7 @@ collections:
       - label: "Slug"
         name: "slug"
         widget: "string"
-      - label: "Titre"
+      - label: "Title"
         name: "title"
         widget: "string"
       - label: "Publish Date"
